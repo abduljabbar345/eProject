@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us — Crystal Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<style >
+.container{
+position: relative;
+width: 750px;
+height: 450px;
+background-color: transparent;
+border: 2px solid #0ef;
+box-shadow:  0  0 25px #0ef;
+overflow: hidden;
+}
+.container .flow{
+position: absolute;
+top: 0;
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Crystal<span class="text-warning">Shop</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="offers.html">Special Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="newarrival.html">New Arrival</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <h2>Contact Us</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h5>Our Store</h5>
+        <p>CrystalShop, 123 Crystal Ave, Karachi, Pakistan</p>
+        <p>Email: <a href="mailto:info@crystalshop.example">info@crystalshop.example</a></p>
+        <p>Phone: +92 300 0000000</p>
+        <h6>Get directions</h6>
+        <!-- Public Google Maps embed for Karachi (no API key required for embed iframe) -->
+        <iframe src="https://www.google.com/maps?q=karachi&output=embed" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <h5>Send us a message</h5>
+        <form>
+          <div class="mb-2"><input class="form-control" placeholder="Your name"></div>
+          <div class="mb-2"><input class="form-control" placeholder="Your email"></div>
+          <div class="mb-2"><textarea class="form-control" rows="4" placeholder="Message"></textarea></div>
+          <button class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white py-4 mt-5"><div class="container text-center"><small>&copy; 2025 CrystalShop.</small></div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
